@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<pnp:Provisioning xmlns:pnp="http://schemas.dev.office.com/PnP/2018/05/ProvisioningSchema">
+  <pnp:Preferences Generator="OfficeDevPnP.Core, Version=2.27.1806.0, Culture=neutral, PublicKeyToken=5e633289e95c321a">
+    <pnp:Parameters>
+      <pnp:Parameter Key="ProjectOwner">ro@gw365dev.onmicrosoft.com</pnp:Parameter>
+      <pnp:Parameter Key="OwnerEmail">ro@gw365dev.onmicrosoft.com</pnp:Parameter>
+    </pnp:Parameters>
+  </pnp:Preferences>
+  <pnp:Templates ID="CONTAINER-TEMPLATE-PPM-PROJECT-DATA">
+    <pnp:ProvisioningTemplate ID="TEMPLATE-PPM-PROJECT-DATA" Version="1" BaseSiteTemplate="GROUP#0" Scope="RootSite">
+      <pnp:Lists>
+        <pnp:ListInstance Title="Information" Description="" DocumentTemplate="" TemplateType="100" Url="Lists/Information" MinorVersionLimit="0" MaxVersionLimit="0" DraftVersionVisibility="0" TemplateFeatureID="00bfea71-de22-43b2-a848-c05709900100" EnableAttachments="false" EnableFolderCreation="false" NoCrawl="true" DefaultDisplayFormUrl="{site}/Lists/Information/DispForm.aspx" DefaultEditFormUrl="{site}/Lists/Information/EditForm.aspx" DefaultNewFormUrl="{site}/Lists/Information/NewForm.aspx" ImageUrl="/_layouts/15/images/itgen.png?rev=44" IsApplicationList="false" ValidationFormula="" ValidationMessage="">
+
+          <pnp:DataRows>
+
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">DevCamp Projekt 1</pnp:DataValue>
+              <pnp:DataValue FieldName="gwSiteDescription">Beschreibung zu DevCamp Projekt 1</pnp:DataValue>
+              <pnp:DataValue FieldName="gwShortName">O1</pnp:DataValue>
+              <pnp:DataValue FieldName="gwPrivate">false</pnp:DataValue>
+              <pnp:DataValue FieldName="gwSiteClassification">intern</pnp:DataValue>
+              <pnp:DataValue FieldName="gwSiteProvisionStatus">Pending</pnp:DataValue>
+              <pnp:DataValue FieldName="gwProjectLead">{parameter:ProjectOwner}</pnp:DataValue>
+              <pnp:DataValue FieldName="gwSiteOwner">{parameter:OwnerEmail}</pnp:DataValue>
+              <pnp:DataValue FieldName="gwSiteTemplateId">ppm-project</pnp:DataValue>
+
+              <pnp:DataValue FieldName="gwSiteStatus">1;#aktiv|2e14f642-e37f-4588-b28e-2654e2163f9e</pnp:DataValue>
+              <pnp:DataValue FieldName="gwArea">1;#Key Account Management|2d1c72cc-da09-40a4-84a9-442ba8ea9ec8</pnp:DataValue>
+
+            </pnp:DataRow>
+
+          </pnp:DataRows>
+
+        </pnp:ListInstance>
+      </pnp:Lists>
+    </pnp:ProvisioningTemplate>
+  </pnp:Templates>
+</pnp:Provisioning>
