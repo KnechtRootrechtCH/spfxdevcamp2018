@@ -1,13 +1,13 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
   "solution": {
-    "name": "sp-fx-dev-camp-2018-client-side-solution",
-    "id": "32a28e8b-321d-4d9c-959a-632e1b4eb47f",
+    "name": "sp-fx-dev-camp-2018-starter-client-side-solution",
+    "id": "969e3563-d745-463a-a6aa-9abc5c40dabd",
     "version": "1.0.0.0",
     "includeClientSideAssets": true,
     "skipFeatureDeployment": true
   },
   "paths": {
-    "zippedPackage": "solution/sp-fx-dev-camp-2018.sppkg"
+    "zippedPackage": "solution/sp-fx-dev-camp-2018-starter.sppkg"
   }
 }

@@ -1,17 +1,17 @@
-# SPFx-Dev-Camp-2018
+# SPFx-Dev-Camp-2018-Starter
 
-Base Solution for creating a SPFx WebPart with full sample.
+Base Solution for creating a SPFx WebPart with service provider.
 
 - Data Interface
 - Mock Provider
 - SPListProvider
 - Shared React Component
-- SPFx React WebPart
+- SPFx React WebPart (HelloWorld)
 
 ## Framework Version
 
 - SPFx 1.5.1
-- [package.json](https://stash.garaio.com/projects/SPFX/repos/spfxdevcamp2018/browse/package.json)
+- [package.json](https://stash.garaio.com/projects/SPFX/repos/spfxdevcamp2018starter/browse/package.json)
 
 ## Code guidlines
 
@@ -51,7 +51,7 @@ Shared Services Provider (ListMockService, SpListService, SpSearchService usw.)
 ## Building the code
 
 ```bash
-git clone ssh://git@git-ssh.garaio.com:7999/spfx/spfxdevcamp2018.git
+git clone ssh://git@git-ssh.garaio.com:7999/spfx/spfxdevcamp2018starter.git
 pnpm i
 gulp build
 ```
@@ -87,7 +87,7 @@ gulp package-solution --ship
 
 ## Manuel Upload Solution Deployment
 
-- Upload the solution file "sp-fx-dev-camp-2018.sppkg" from "/sharepoint/solution" to the App Catalog.
+- Upload the solution file "sp-fx-dev-camp-2018-starter.sppkg" from "/sharepoint/solution" to the App Catalog.
 - Go to either a modern Communication or Team Site.
 - Go to "Site contents" and add new "App"
 - Select "packagename" and wait for it to be installed

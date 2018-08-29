@@ -14,9 +14,9 @@ Param(
 
 Write-Info "Provisioning solution..."
 
-$zipFile = "sp-fx-dev-camp-2018.sppkg"
-$solutionName = "sp-fx-dev-camp-2018"
-$solutionTitle = "sp-fx-dev-camp-2018-client-side-solution"
+$zipFile = "sp-fx-dev-camp-2018-starter.sppkg"
+$solutionName = "sp-fx-dev-camp-2018-starter"
+$solutionTitle = "sp-fx-dev-camp-2018-starter-client-side-solution"
 $appstoreurl = "$($apps.default.url)"
 
 
