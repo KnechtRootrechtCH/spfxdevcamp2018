@@ -6,7 +6,7 @@ Base Solution for creating a SPFx WebPart with service provider.
 - Mock Provider
 - SPListProvider
 - Shared React Component
-- SPFx React WebPart (HelloWorld)
+- SPFx React WebPart (ThisWillAllEndInTears)
 
 ## Framework Version
 
